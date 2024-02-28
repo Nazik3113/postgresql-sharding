@@ -1,0 +1,31 @@
+{
+    "Servers": {
+        "1": {
+            "Name": "postgres_node1",
+            "Group": "sharding",
+            "Host": "postgres_node1",
+            "Port": 5432,
+            "MaintenanceDB": "postgres",
+            "Username": "postgresnode1user",
+            "SSLMode": "prefer"
+        },
+        "2": {
+            "Name": "postgres_node2",
+            "Group": "sharding",
+            "Host": "postgres_node2",
+            "Port": 5432,
+            "MaintenanceDB": "postgres",
+            "Username": "postgresnode2user",
+            "SSLMode": "prefer"
+        },
+        "3": {
+            "Name": "postgres_node3",
+            "Group": "sharding",
+            "Host": "postgres_node3",
+            "Port": 5432,
+            "MaintenanceDB": "postgres",
+            "Username": "postgresnode3user",
+            "SSLMode": "prefer"
+        }
+    }
+}
